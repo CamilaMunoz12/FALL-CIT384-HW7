@@ -21,6 +21,8 @@ body {
 .content-wrap{
     max-width: 950px;
     margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
 }
 
 main section {
@@ -39,6 +41,7 @@ h1 {
 h2 {
     font-size: 1.6rem;
     font-weight: 400;
+    margin-top: 0;
 }
 
 h3 {
@@ -57,11 +60,14 @@ header {
 
 header h1, header h2 {
     color: #43584D;
+    margin: 0;
 }
 
-header img {
-    width: 160px;
-    height: auto;
+.profile-img {
+    width: 300px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
 }
 
 footer {
@@ -82,7 +88,10 @@ footer a {
 footer a:hover {
     color: #DCE5DD;
 }
-
+.contact-info a{
+    padding: 10px;
+    display: inline-block;
+}
 
 
 /* Work Experience
