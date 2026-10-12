@@ -18,6 +18,10 @@ body {
     margin: 0;
     line-height: 1.6;
 }
+.content-wrap{
+    width: 950px;
+    margin: 0 auto;
+}
 
 main section {
     padding: 25px;
